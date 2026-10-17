@@ -17,7 +17,7 @@ import (
 )
 
 const groqEndpoint = "https://api.groq.com/openai/v1/chat/completions"
-const groqModel = "llama-3.3-70b-versatile"
+const groqModel = "openai/gpt-oss-120b"
 
 // LLMExplanation is what we attach to each flagged IP.
 type LLMExplanation struct {
